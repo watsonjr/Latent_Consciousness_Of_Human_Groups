@@ -31,10 +31,11 @@ This file contains code to plot heatmaps for the Transition Probability Matrices
 This file contains code to plot Phi as a function of system states
 
 ### 06_plot_fig4.py
-This file contains code to plot Phi over time for player subsets.Note that the data we use here in this repo differ from the data used for the analysis presented in the manuscript. The data provided here does not have the same labels as those of the La Liga data, notably labels for when the soccer ball was in play or not. Consequently, the figures generated here do not look the same as those created for the manuscript. There are frequent and long periods of time where Phi is constant for player subsets. These results should be ignored and are attributed to this difference between the datasets. In the analysis of the La Liga data, these features were not found.
+This file contains code to plot Phi over time for player subsets.Note that the data we use here in this repo differ from the data used for the analysis presented in the manuscript. The data provided here does not have the same labels as those of the La Liga data, notably labels for when the soccer ball was in play or not. Consequently, the figures generated here do not look the same as those created for the manuscript. There are frequent and long periods of time where Phi is constant for player subsets. This feature should be ignored and are attributed to this difference between the datasets. In the analysis of the La Liga data, these features were not found.
 
 ### Requirements
-Make sure you have this version of IIT installed: 
+Make sure you have this version of IIT installed:
+
 !pip install -U git+https://github.com/wmayner/pyphi.git@feature/iit-4.0
 
 We also use the following python Packages:
